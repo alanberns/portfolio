@@ -1,9 +1,9 @@
-<main class="main">
-  <div class="content">
-    <h1 class="text-3xl font-bold bg-amber-200 underline text-center mt-10">
-      ¡Hola desde Tailwind!
-    </h1>    
-  </div>
-</main>
-
-<router-outlet />
+<div class="flex flex-col">
+  <app-header />
+  <main class="flex-grow min-h-screen">
+    <div class="max-w-7xl mx-auto pt-16 py-8">
+      <router-outlet />
+    </div>
+  </main>
+  <app-footer />
+</div>

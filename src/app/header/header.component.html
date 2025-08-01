@@ -1,0 +1,26 @@
+<header class="w-full bg-white text-gray-700 py-4 px-6 fixed top-0 left-0 z-50">
+  <div class="max-w-7xl mx-auto flex sm:justify-center items-center">
+
+    <!-- Botón hamburguesa -->
+    <button (click)="toggleMenu()" class="sm:hidden text-2xl focus:outline-none">
+      {{ menuOpen ? '✖' : '☰' }}
+    </button>
+
+    <!-- Navegación desktop -->
+    <nav class="hidden sm:flex space-x-8 text-lg font-semibold">
+      <a routerLink="/" routerLinkActive="text-gray-600" class="hover:text-gray-400 transition">Inicio</a>
+      <a routerLink="/about" routerLinkActive="text-gray-600" class="hover:text-gray-400 transition">Sobre mí</a>
+      <a routerLink="/proyectos" routerLinkActive="text-gray-600" class="hover:text-gray-400 transition">Proyectos</a>
+      <a routerLink="/certificados" routerLinkActive="text-gray-600" class="hover:text-gray-400 transition">Certificados</a>
+    </nav>
+  </div>
+
+  <!-- Menú mobile -->
+  <div *ngIf="menuOpen" class="sm:hidden flex flex-col space-y-4 mt-4 text-lg font-semibold px-4">
+    <a routerLink="/" routerLinkActive="text-gray-600" class="hover:text-gray-400 transition" (click)="toggleMenu()">Inicio</a>
+    <a routerLink="/about" routerLinkActive="text-gray-600" class="hover:text-gray-400 transition" (click)="toggleMenu()">Sobre mí</a>
+    <a routerLink="/proyectos" routerLinkActive="text-gray-600" class="hover:text-gray-400 transition" (click)="toggleMenu()">Proyectos</a>
+    <a routerLink="/certificados" routerLinkActive="text-gray-600" class="hover:text-gray-400 transition" (click)="toggleMenu()">Certificados</a>
+  </div>
+  
+</header>

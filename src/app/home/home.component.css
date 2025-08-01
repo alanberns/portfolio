@@ -1,0 +1,15 @@
+@keyframes slideFade {
+    0% {
+      opacity: 0;
+      transform: translateY(24px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-slide-fade {
+    animation: slideFade 1.2s ease-out forwards;
+  }
+  
