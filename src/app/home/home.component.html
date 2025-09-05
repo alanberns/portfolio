@@ -1,26 +1,42 @@
-<section class="bg-white flex items-center justify-center text-center px-4 ">
-  <div class="flex flex-col md:flex-row items-center md:space-x-20 space-y-8 md:min-h-screen md:space-y-0">
-    
-    <!-- Bloque izquierdo: nombre + rol -->
-    <div class="flex flex-col items-center">
-      <!-- Círculo con nombre -->
-      <div class="bg-gray-900 text-white rounded-full w-54 h-54 flex flex-col items-center justify-center shadow-xl mb-6">
-        <span class="text-4xl font-bold leading-tight">Alan</span>
-        <span class="text-4xl font-bold leading-tight">Berns</span>
+<section class="sm:min-h-[calc(100vh-105px)] min-h-[calc(100vh-50px)] flex items-center">
+  <!-- Fondo -->
+  <div class="absolute inset-0 -z-10">
+    <div class="absolute inset-0 opacity-90" style="
+      background: radial-gradient(60% 60% at 20% 20%, #c7d2fe 0%, transparent 60%),
+                  radial-gradient(50% 50% at 80% 30%, #fbcfe8 0%, transparent 60%),
+                  radial-gradient(55% 55% at 40% 80%, #bfdbfe 0%, transparent 60%),
+                  #ffffff;">
+    </div>
+    <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.6)_0,rgba(255,255,255,0)_60%)]"></div>
+  </div>
+
+  <!-- Contenedor centrado -->
+  <div class="mx-auto max-w-5xl px-6 pb-16 sm:pb-20 md:pb-28 w-full">
+    <div class="mx-auto max-w-3xl rounded-2xl border border-white/60 bg-white/60 backdrop-blur shadow-xl">
+      <div class="px-8 py-10 sm:px-12 sm:py-14 text-center">
+        <div class="flex flex-col md:flex-row items-center md:space-x-16 space-y-4 md:space-y-0">
+
+          <!-- Bloque izquierdo -->
+          <div class="flex flex-col items-center">
+            <div class="bg-gray-900 text-white rounded-full w-32 h-32 sm:w-36 sm:h-36 md:w-40 md:h-40 flex flex-col items-center justify-center shadow-xl mb-4">
+              <span class="text-2xl sm:text-3xl md:text-3xl font-bold leading-tight">Alan</span>
+              <span class="text-2xl sm:text-3xl md:text-3xl font-bold leading-tight">Berns</span>
+            </div>
+            <p class="text-lg sm:text-xl text-gray-700 font-medium">Fullstack Developer</p>
+          </div>
+
+          <!-- Línea separadora -->
+          <div class="bg-gray-400 w-px h-20 md:h-24 md:block hidden"></div>
+          <div class="bg-gray-400 h-px w-20 md:hidden"></div>
+
+          <!-- Bloque derecho -->
+          <div class="flex flex-col items-center space-y-2">
+            <p class="text-lg sm:text-xl text-gray-600 font-bold">Analista Programador Univ.</p>
+            <p class="text-lg sm:text-xl text-gray-600 font-bold">Licenciatura en Sistemas</p>
+          </div>
+
+        </div>
       </div>
-      <!-- Rol -->
-      <p class="text-2xl text-gray-700 font-medium">Fullstack Developer</p>
     </div>
-
-    <!-- Línea vertical (horizontal en mobile) -->
-    <div class="bg-gray-400 w-px h-48 md:h-48 md:w-px md:block hidden"></div>
-    <div class="bg-gray-400 h-px w-48 md:hidden"></div>
-
-    <!-- Bloque derecho: títulos universitarios -->
-    <div class="flex flex-col items-center space-y-4">
-      <p class="text-2xl text-gray-600 font-bold">Analista Programador Univ.</p>
-      <p class="text-2xl text-gray-600 font-bold">Licenciatura en Sistemas</p>
-    </div>
-
   </div>
 </section>
