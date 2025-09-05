@@ -8,10 +8,18 @@
 
     <!-- Navegación desktop -->
     <nav class="hidden sm:flex space-x-8 text-lg font-semibold">
-      <a routerLink="/" routerLinkActive="text-gray-600" class="hover:text-gray-400 transition">Inicio</a>
-      <a routerLink="/about" routerLinkActive="text-gray-600" class="hover:text-gray-400 transition">Sobre mí</a>
-      <a routerLink="/proyectos" routerLinkActive="text-gray-600" class="hover:text-gray-400 transition">Proyectos</a>
-      <a routerLink="/certificados" routerLinkActive="text-gray-600" class="hover:text-gray-400 transition">Certificados</a>
+      <a routerLink="/" routerLinkActive="border-b-2 border-gray-600"
+        [routerLinkActiveOptions]="{ exact: true }"
+        class="hover:text-gray-400 transition pb-1" class="hover:text-gray-400 transition">Inicio</a>
+      <a routerLink="/about" routerLinkActive="border-b-2 border-gray-600"
+        [routerLinkActiveOptions]="{ exact: true }"
+        class="hover:text-gray-400 transition pb-1" class="hover:text-gray-400 transition">Sobre mí</a>
+      <a routerLink="/proyectos" routerLinkActive="border-b-2 border-gray-600"
+        [routerLinkActiveOptions]="{ exact: true }"
+        class="hover:text-gray-400 transition pb-1" class="hover:text-gray-400 transition">Proyectos</a>
+      <a routerLink="/certificados" routerLinkActive="border-b-2 border-gray-600"
+        [routerLinkActiveOptions]="{ exact: true }"
+        class="hover:text-gray-400 transition pb-1" class="hover:text-gray-400 transition">Certificados</a>
     </nav>
   </div>
 

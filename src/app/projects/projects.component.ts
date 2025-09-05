@@ -20,8 +20,15 @@ interface Project {
 export class ProjectsComponent {
   projects: Project[] = [
     {
+      title: 'Turnos web',
+      description: 'Aplicación web para ofrecer un sistema de turnos.',
+      technologies: ['Firebase', 'React'],
+      img: 'img/proyectos/turnos/turnos.jpg',
+      link: 'https://turnos-kappa.vercel.app',
+    },
+    {
       title: 'Empresa de software',
-      description: 'Página web para una empresa de servicios e software.',
+      description: 'Página web para una empresa de servicios de software.',
       technologies: ['React', 'Tailwind'],
       github: 'https://github.com/alanberns/ViteApp',
       img: 'img/proyectos/ViteApp/ViteApp.jpg',
