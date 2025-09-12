@@ -43,6 +43,12 @@ export class ProjectsComponent {
       link: 'https://alanberns.github.io/cuanto-vale',
     },
     {
+      title: 'Horarios de colectivos',
+      description: 'Extensión de uso personal sobre la aplicación de Unión Platense.',
+      technologies: ['React', 'Tailwind'],
+      img: 'img/proyectos/bondi/bondi.jpg',
+    },
+    {
       title: 'Floorplan Management System',
       description: 'Aplicación web para gestionar planos de proyectos de construcción.',
       technologies: ['Docker', 'Vue.js', 'Nest.js', 'TypeScript', 'Mongo DB', 'Bootstrap'],
