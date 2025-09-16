@@ -45,7 +45,7 @@ export class ProjectsComponent {
     {
       title: 'Horarios de colectivos',
       description: 'Extensión de uso personal sobre la aplicación de Unión Platense.',
-      technologies: ['React', 'Tailwind'],
+      technologies: ['Vercel Serverless Functions FaaS', 'React', 'Tailwind', 'Tailwind'],
       img: 'img/proyectos/bondi/bondi.jpg',
     },
     {
