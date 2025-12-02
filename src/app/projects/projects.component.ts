@@ -43,10 +43,11 @@ export class ProjectsComponent {
       link: 'https://alanberns.github.io/cuanto-vale',
     },
     {
-      title: 'Horarios de colectivos',
+      title: 'Cuando viene',
       description: 'Extensión de uso personal sobre la aplicación de Unión Platense.',
       technologies: ['Vercel Serverless Functions FaaS', 'React', 'Tailwind', 'Tailwind'],
       img: 'img/proyectos/bondi/bondi.jpg',
+      link: 'https://cuandoviene.vercel.app/'
     },
     {
       title: 'Floorplan Management System',
@@ -71,14 +72,14 @@ export class ProjectsComponent {
     },
     {
       title: '¡OhMyDog!',
-      description: 'Aplicación web para acortar enlaces.',
+      description: 'Sistema web para una veterinaria.',
       technologies: ['Docker', 'Node.js', 'Express', 'PostgreSQL', 'Bootstrap'],
       github: 'https://github.com/alanberns/ohmydog',
       img: 'img/proyectos/ohmydog/ohmydog.png',
     },
     {
       title: 'chq.to',
-      description: 'Sistema web para una veterinaria.',
+      description: 'Aplicación web para acortar enlaces.',
       technologies: ['Docker', 'Ruby', 'Rails', 'SQLite', 'Bootstrap'],
       github: 'https://github.com/alanberns/chq.to',
       img: 'img/proyectos/chqto/chqto.png',
