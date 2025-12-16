@@ -19,18 +19,11 @@ interface Certificate {
 export class CertificatesComponent {
   certificates: Certificate[] = [
     {
-      title: 'Java Full-Stack',
-      institution: 'Codo a Codo',
-      date: 'Diciembre 2021',
-      technologies: ['Java', 'HTML', 'CSS', 'JavaScript', 'Bootstrap', 'MySQL'],
-      image: 'img/certificados/Java.jpg'
-    },
-    {
-      title: 'Especialización Spring',
-      institution: 'Codo a Codo',
-      date: 'Diciembre 2022',
-      technologies: ['Java', 'Spring', 'Hibernate', 'PostgreSQL'],
-      image: 'img/certificados/Spring.jpg'
+      title: 'Python desde cero',
+      institution: 'Siemens fundación, Centro Cultural de la Ciencia',
+      date: 'Noviembre 2025',
+      technologies: ['Python', 'Numpy', 'Matplotlib', 'sklearn', 'Pandas', 'tensorflow'],
+      image: 'img/certificados/PythonSiemens.jpg'
     },
     {
       title: 'Ciencia de Datos',
@@ -52,6 +45,20 @@ export class CertificatesComponent {
       date: 'Octubre 2023',
       technologies: ['Python', 'Numpy', 'Pandas'],
       image: 'img/certificados/PandasyNumpy.jpg'
+    },
+    {
+      title: 'Especialización Spring',
+      institution: 'Codo a Codo',
+      date: 'Diciembre 2022',
+      technologies: ['Java', 'Spring', 'Hibernate', 'PostgreSQL'],
+      image: 'img/certificados/Spring.jpg'
+    },
+    {
+      title: 'Java Full-Stack',
+      institution: 'Codo a Codo',
+      date: 'Diciembre 2021',
+      technologies: ['Java', 'HTML', 'CSS', 'JavaScript', 'Bootstrap', 'MySQL'],
+      image: 'img/certificados/Java.jpg'
     },
   ];
 }
